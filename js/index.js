@@ -11,7 +11,7 @@ console.log("Result of prompts:" + userName+userSurname+userColor);
 // Result Variable of the prompts
 const userInputResults = userName + userSurname + userColor;
 
-const pagePrompt = document.getElementById("test").innerHTML = userName;
+const pagePrompt = document.getElementById("test").innerHTML = userInputResults;
 
 // const pageTwoPrompt = prompt(userSurname);
 // document.getElementById("test-two").innerHTML = pageTwoPrompt;
