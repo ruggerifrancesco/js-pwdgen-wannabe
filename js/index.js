@@ -1,8 +1,8 @@
 console.log ("JS Loaded!");
 
-let userName = prompt('Scrivi il tuo nome:');
-let userSurname = prompt('Scrivi il tuo cognome:');
-let userColor = prompt('Scrivi il tuo colore preferito:');
+const userName = prompt('Scrivi il tuo nome:');
+const userSurname = prompt('Scrivi il tuo cognome:');
+const userColor = prompt('Scrivi il tuo colore preferito:');
 
 // Ciclo di casting e aggiunta numero
 let userLuckyNumber = parseInt(
