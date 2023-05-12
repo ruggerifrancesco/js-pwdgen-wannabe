@@ -4,7 +4,7 @@ const userName = prompt('Scrivi il tuo nome:');
 const userSurname = prompt('Scrivi il tuo cognome:');
 const userColor = prompt('Scrivi il tuo colore preferito:');
 
-// Ciclo di casting e aggiunta numero
+// Casting e aggiunta numero
 let userLuckyNumber = parseInt(
     prompt('Scrivi il tuo numero fortunato (Al numero inserito ci sarà un aggiunta di 10)'));
 
