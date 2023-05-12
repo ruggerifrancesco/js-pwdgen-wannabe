@@ -18,6 +18,3 @@ const userInputResults = userName + userSurname + userColor + userNumber;
 console.log("Result of prompts:" + userInputResults);
 
 const pagePrompt = document.getElementById("result-prompts").innerHTML = userInputResults;
-
-// const pageTwoPrompt = prompt(userSurname);
-// document.getElementById("test-two").innerHTML = pageTwoPrompt;
